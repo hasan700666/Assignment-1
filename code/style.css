@@ -60,3 +60,30 @@ nav ul li{
     font-weight: 1000;
     text-align: center;
 }
+
+.act-sec-p{
+    font-size: 24px;
+    color: #56565f;
+}
+
+.act-sec-h3{
+    font-size: 42px;
+    color: #252432;
+}
+
+.wc-mini-png{
+    height: 328px;
+    width: auto;
+    border-radius: 45px;
+    margin-left: 800px ;
+}
+
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 130px 50px;
+}
+
+.text-section{
+    margin-left: 100px;
+}
