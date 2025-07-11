@@ -51,6 +51,12 @@ nav ul li{
     border: none;   
 }
 
+.btn-3{
+    margin-left: 460px;
+    padding: 18px 35px;
+    font-size: 17px;
+}
+
 .banner_section{
     margin: 200px 400px;
 }
@@ -86,4 +92,48 @@ nav ul li{
 
 .text-section{
     margin-left: 100px;
+}
+
+.productive-section{
+    background-color: #e3e2ff;
+    margin: 100px 150px;
+    padding-top: 4px;
+    border-radius: 30px;
+}
+
+.pro-text{
+    text-align: center;
+    font-size: 40px;
+}
+
+.data{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 300px;
+    font-size: 50px;
+    font-weight: 800;
+    color: #4E47FF;
+}
+.act-data{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 300px;
+}
+
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+.text-new{
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+.from{
+    margin-left: 200px;
+    border-color: #56565f;
+    padding: 5px;
+
 }
