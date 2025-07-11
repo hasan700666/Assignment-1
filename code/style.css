@@ -1,8 +1,5 @@
-.header{
-    background-image: url('../Assets/Hero-bg.png');
-    width: auto;
-    height: 100vh;
-}
+/* header */
+
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -11,8 +8,13 @@
     "wdth" 100;
 }
 
+.header{
+    background-image: url('../Assets/Hero-bg.png');
+    width: auto;
+    height: 100vh;
+}
 
-/* nav style */
+/* nevbar-srction */
 
 .navbar_section{
     display: flex;
@@ -37,11 +39,72 @@ nav ul li{
     font-size: 17px;
 }
 
+/* banner-section */
+
+.banner-section{
+
+}
+
+.ban-p{
+    margin: 250px 500px 0px 500px;
+}
+
+.banner_text{
+    font-size: 60px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.ban-btn-2{
+    display: flex;
+    justify-content: center;
+}
+
 .btn-2{
-    margin-left: 460px;
     padding: 18px 35px;
     font-size: 17px;
 }
+
+
+/* main */
+
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 130px 130px;
+}
+
+.text-section{
+    
+}
+
+.act-sec-h3{
+    font-size: 42px;
+    color: #252432;
+}
+
+
+.act-sec-p{
+    font-size: 24px;
+    color: #56565f;
+}
+
+.btn-3{
+    margin-right: 200px;
+    padding: 18px 35px;
+    font-size: 17px;
+}
+
+.wc-mini-png{
+    height: 328px;
+    width: auto;
+    border-radius: 45px;
+}
+
+
+/* footer */
+
+/* all-section */
 
 .btn{
     background-color: #4E47FF;
@@ -51,49 +114,24 @@ nav ul li{
     border: none;   
 }
 
-.btn-3{
-    margin-left: 460px;
-    padding: 18px 35px;
-    font-size: 17px;
-}
 
-.banner_section{
-    margin: 200px 400px;
-}
 
-.banner_text{
-    font-size: 60px;
-    font-weight: 1000;
-    text-align: center;
-}
 
-.act-sec-p{
-    font-size: 24px;
-    color: #56565f;
-}
 
-.act-sec-h3{
-    font-size: 42px;
-    color: #252432;
-}
 
-.wc-mini-png{
-    height: 328px;
-    width: auto;
-    border-radius: 45px;
-    margin-left: 800px ;
-}
 
-.action-section{
-    display: flex;
-    justify-content: space-between;
-    margin: 130px 50px;
-}
 
-.text-section{
-    margin-left: 100px;
-}
 
+
+
+
+
+
+
+
+
+
+/* 
 .productive-section{
     background-color: #e3e2ff;
     margin: 100px 150px;
@@ -135,5 +173,4 @@ nav ul li{
     margin-left: 200px;
     border-color: #56565f;
     padding: 5px;
-
-}
+} */
