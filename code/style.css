@@ -23,9 +23,6 @@
 }
 
 .logo{
-    font-size: 45px;
-    font-weight: 800;
-    color: #4E47FF;
     margin-left: 200px;
 }
 
@@ -254,14 +251,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: bolder;
-    font-size: 50px;
 }
 
-.footer-logo>h1{
-    margin-bottom: 0px;
-    color: #4E47FF;
-}
 
 .footer-p{
     display: flex;
@@ -283,14 +274,17 @@ footer{
 }
 
 
-
-
-
+/* all section */
 
 .btn{
     background-color: #4E47FF;
     color: white;
     font-weight: bold;
     border-radius: 6px;
-    border: none;   
+    border: none;
+    transition: 0.5s;   
+}
+
+.btn:hover{
+    background-color: black;
 }
