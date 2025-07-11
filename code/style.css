@@ -131,13 +131,67 @@ nav ul li{
 }
 
 .data>p{
-    margin: 30px 0px 0px 0px;
+    margin: 40px 0px 0px 0px;
 }
 
 .act-data{
     display: flex;
     justify-content: space-between;
     margin: 0px 350px;
+}
+
+/* review-section */
+
+.rev-h3{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin: 35px 0px 25px 0px;
+}
+
+.rev-card{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-all{
+    border: 2px solid #f6f6ff;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+}
+
+.star{
+    margin-top: 15px;
+}
+
+.card-all>h5{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.card-all>p{
+
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile>img{
+    border-radius: 100px;
+}
+
+.profile>p{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 
