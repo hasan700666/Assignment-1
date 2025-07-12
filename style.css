@@ -135,6 +135,7 @@ nav ul li{
     display: flex;
     justify-content: space-between;
     margin: 0px 350px;
+    padding-bottom: 33px;
 }
 
 /* review-section */
@@ -162,7 +163,7 @@ nav ul li{
 }
 
 .star{
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 .card-all>h5{
@@ -201,6 +202,9 @@ nav ul li{
 }
 
 .new-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 100px;
     font-weight: bolder;
 }
@@ -218,16 +222,18 @@ input[type="email"],input[type="text"]{
     margin-bottom: 10px;
     border: #56565f;
     background-color: whitesmoke;
+    font-size: 15px;
 }
 
 textarea{
     border-radius: 10px;
     background-color: #4E47FF;
     width: 70%;
-    padding: 10px 20px;
+    padding: 20px 20px;
     margin-bottom: 10px;
     border: #56565f;
     background-color: whitesmoke;
+    font-size: 15px;
 }
 
 .new-form>h5{
