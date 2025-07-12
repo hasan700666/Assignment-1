@@ -9,7 +9,7 @@
 }
 
 .header{
-    background-image: url('../Assets/Hero-bg.png');
+    background-image: url('Hero-bg.png');
     width: auto;
     height: 100vh;
 }
